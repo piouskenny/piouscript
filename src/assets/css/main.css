@@ -1,0 +1,62 @@
+
+.all-container {
+    height: 100%;
+    width: 100%;
+}
+
+.bg-dark1 {
+    background-color: #000;
+}
+
+.brand-name {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.brand-info {
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.Profile_picture {
+    border-radius: 200px;
+    width: 120px;
+    height: 120px;
+}
+
+
+.underline{
+    border-bottom: 5px solid rgb(0, 255, 153);
+    border-style:outset;
+    border-top: 0;
+    border-left: 0;
+    border-right:0 ;
+}
+.myname {
+    animation-name: move-to-right;
+    animation-duration: 10s;
+}
+
+@keyframes move-to-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    50% {
+        transform: translateX(-50px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.skills {
+    font-weight: 500;
+}
